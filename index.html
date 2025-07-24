@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill & Match</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chill & Match</h1>
+        <button id="toggle-night" aria-label="Activer le mode nuit">
+            <span class="icon-moon">🌙</span> Mode Nuit
+        </button>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Ambiance Chill & Match">
+            <p>
+                Bienvenue à <strong>Chill & Match</strong> ! <br>
+                Des soirées conviviales où se rencontrent speed dating, jeux de société, et détente. Venez créer de nouveaux liens autour d'une ambiance chaleureuse et ludique.
+            </p>
+        </section>
+        <section class="events">
+            <h2>Prochains événements</h2>
+            <div class="event-list" id="event-list">
+                <!-- Événements injectés par JS -->
+            </div>
+        </section>
+        <section class="registration">
+            <h2>Inscription</h2>
+            <form id="registration-form">
+                <div class="form-row">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-row">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Adresse email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="evenement">Sélectionnez un événement</label>
+                    <select id="evenement" name="evenement" required>
+                        <!-- Options injectées par JS -->
+                    </select>
+                </div>
+                <button type="submit" class="animated-btn">S’inscrire</button>
+                <div id="confirmation-message"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Chill & Match — Créé par blacklotus54</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
