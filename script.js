@@ -5,7 +5,7 @@ const events = [
         date: "Jeudi 7 août 2025",
         lieu: "Galerie Gourmande, alga",
         desc: "Soirée chill, rencontres, et jeux de société classiques.",
-        img: "https://www.pexels.com/fr-fr/photo/personne-individu-regarder-porter-8762312/"
+        img: "https://images.pexels.com/photos/8762312/pexels-photo-8762312.jpeg"
     },
     {
         id: "event2",
@@ -19,7 +19,7 @@ const events = [
         date: "Avenir",
         lieu: "Nous penssont a vous faire sortir de la ville hehe!",
         desc: "Rencontres, chill, et tournois de jeux de société.",
-        img: "https://stock.adobe.com/fr/images/couples-dancing-and-drinking-at-evening-party/100702496"
+        img: "https://as1.ftcdn.net/jpg/01/00/70/24/1000_F_100702496_XSRrRzdDUVKw5ty70jt7IGQUoHybbIIz.jpg"
     }
 ];
 
