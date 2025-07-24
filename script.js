@@ -2,24 +2,24 @@
 const events = [
     {
         id: "event1",
-        date: "Vendredi 2 août 2025",
-        lieu: "Café des Jeux, Nancy",
+        date: "Jeudi 7 août 2025",
+        lieu: "Galerie Gourmande, alga",
         desc: "Soirée chill, rencontres, et jeux de société classiques.",
-        img: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80"
+        img: "https://www.pexels.com/fr-fr/photo/personne-individu-regarder-porter-8762312/"
     },
     {
         id: "event2",
-        date: "Samedi 23 août 2025",
-        lieu: "Le Bar à Jeux, Metz",
+        date: "Avenir",
+        lieu: "Quelque part dans cotonou",
         desc: "Speed dating ludique et jeux modernes, ambiance cosy.",
-        img: "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=400&q=80"
+        img: "https://images.pexels.com/photos/8762375/pexels-photo-8762375.jpeg"
     },
     {
         id: "event3",
-        date: "Vendredi 12 septembre 2025",
-        lieu: "La Ludothèque, Strasbourg",
+        date: "Avenir",
+        lieu: "Nous penssont a vous faire sortir de la ville hehe!",
         desc: "Rencontres, chill, et tournois de jeux de société.",
-        img: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80"
+        img: "https://stock.adobe.com/fr/images/couples-dancing-and-drinking-at-evening-party/100702496"
     }
 ];
 
